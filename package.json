@@ -1,35 +1,15 @@
 {
-<<<<<<< HEAD
-  "name": "athma-2k26",
-=======
   "name": "athma26",
->>>>>>> eb92ea4 (feat: new ui change)
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
-    "start": "vite",
-    "build": "tsc -b && vite build",
-=======
     "build": "vite build",
->>>>>>> eb92ea4 (feat: new ui change)
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-=======
     "framer-motion": "^12.29.2",
     "lucide-react": "^0.563.0",
     "react": "^19.2.0",
@@ -43,18 +23,12 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.23",
->>>>>>> eb92ea4 (feat: new ui change)
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-<<<<<<< HEAD
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.4",
-=======
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.1",
->>>>>>> eb92ea4 (feat: new ui change)
     "vite": "^7.2.4"
   }
 }
