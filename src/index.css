@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-2077');
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-2077');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Audiowide&family=Syncopate:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #0A0A0A;
+  color: #F5F5F5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background-color: #0A0A0A;
+  /* Reverted cursor: none */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F24E1E;
+  /* Athma Orange */
+}
+
+/* Utility Animations */
+@keyframes glitch-skew {
+  0% {
+    transform: skew(0deg);
+  }
+
+  20% {
+    transform: skew(-2deg);
+  }
+
+  40% {
+    transform: skew(2deg);
+  }
+
+  60% {
+    transform: skew(-1deg);
+  }
+
+  80% {
+    transform: skew(1deg);
+  }
+
+  100% {
+    transform: skew(0deg);
+  }
+}
+
+.animate-glitch {
+  animation: glitch-skew 1s infinite linear alternate-reverse;
+}
+
+/* Explicit Fallbacks for Critical Theme Colors */
+.text-athma-orange {
+  color: #F24E1E;
+}
+
+.bg-athma-orange {
+  background-color: #F24E1E;
+}
+
+.border-athma-orange {
+  border-color: #F24E1E;
+}
